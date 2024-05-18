@@ -16,7 +16,7 @@
   padding-top: 5vmin;
 }
 
-span {
+.fas {
   color: red;
 }
 
@@ -34,7 +34,6 @@ span {
 
 .heart {
   position: absolute;
-  color: red;
   transform-origin: top left;
   transform: translate(-50%, -50%);
   animation: animate 0.5s;
