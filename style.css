@@ -28,4 +28,25 @@ span {
   background-position: center;
   margin-top: 20px;
   box-shadow: 0px 0px 15px #000000aa;
+  position: relative;
+  overflow: hidden;
+}
+
+.heart {
+  position: absolute;
+  color: red;
+  transform-origin: top left;
+  transform: translate(-50%, -50%);
+  animation: animate 0.5s;
+}
+
+@keyframes animate {
+  0% {
+    scale: 0;
+    opacity: 1;
+  }
+  100% {
+    scale: 10;
+    opacity: 0;
+  }
 }
