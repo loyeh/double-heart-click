@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 5vmin;
+}
+
+span {
+  color: red;
+}
+
+.image {
+  width: 300px;
+  height: 420px;
+  background-image: url("./images/HD-wallpaper-bugatti-chiron-car-luxury-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px #000000aa;
+}
